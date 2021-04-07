@@ -1,7 +1,10 @@
 html, body {
-    min-height: 100vh;
+    min-height: 100vh !important;
     height: 100vh;
     max-height: 100vh;
+    position: relative !important;
+    width: 100vw i !important;
+    overflow: hidden auto i !important;
 }
 
 body {
@@ -36,13 +39,14 @@ body {
 /* FOOTER */
 
 footer {
-    width: 100%;
+    width: 100% !important;
     padding: 1%;
     background-color: #212529;
     color: aliceblue;
     box-shadow: 0 -5px 10px 3px black;
-    position: absolute;
-    bottom: 0;
+    position: absolute !important;
+    bottom: 0 i !important;
+    left: 0 im !important;
 }
 
 /* Egyéb */
