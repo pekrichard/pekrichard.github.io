@@ -5,7 +5,6 @@ html, body {
     position: relative !important;
     width: 100vw !important;
     overflow: hidden !important;
-    padding-bottom: 1vh !important;
 }
 
 body {
