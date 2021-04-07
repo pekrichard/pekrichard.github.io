@@ -1,0 +1,9 @@
+nav{
+    box-shadow: 0 5px 10px 3px black;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+    font-size: 1.3rem;
+}

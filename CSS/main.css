@@ -1,0 +1,85 @@
+html, body {
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+body {
+    background: url('../PICS/main-bg.jpg') no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+/* Tartalom */
+
+#content-container {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    background-color: #101010AA;
+    padding: 2%;
+    border: 2px solid black;
+    box-shadow: 20px 0 10px -5px #000000CC, -20px 0px 10px -5px #000000CC;
+}
+
+#content-container h1{
+    font-size: 4rem;
+}
+#content-container h2{
+    font-size: 3rem;
+    margin: 3% 0;
+}
+#content-container p{
+    font-size: 1.3rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding: 1%;
+    background-color: #212529;
+    color: aliceblue;
+    box-shadow: 0 -5px 10px 3px black;
+}
+
+/* Egyéb */
+
+#error-minimum-size{
+    display: none;
+}
+
+/* Media Querry */
+
+@media (max-width: 420px){
+    footer {
+        display: none;
+    }
+    body{
+        background: url('../PICS/main-bg-2.jpg') no-repeat fixed center;
+        background-size: cover;
+    }
+    #content-container {
+        width: 100%;
+        box-shadow: none;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media (max-width: 285px) {
+    nav {
+        width: 100%;
+        /*display: none !important;*/
+    }
+    #content-container {
+        display: none;
+    }
+    body{
+        background: none;
+    }
+    #error-minimum-size {
+        display: block;
+        font-size: 5rem;
+    }
+}

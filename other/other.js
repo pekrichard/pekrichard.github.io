@@ -1,0 +1,1 @@
+window.frames["iFrameName"].getElementsByTagName("a")[0].target = "_blank"
