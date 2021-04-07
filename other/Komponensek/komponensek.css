@@ -1,0 +1,12 @@
+html, body {
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+body {
+    background: url('../PICS/main-bg.jpg') no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
