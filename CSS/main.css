@@ -70,7 +70,6 @@ footer {
 @media (max-width: 285px) {
     nav {
         width: 100%;
-        /*display: none !important;*/
     }
     #content-container {
         display: none;
