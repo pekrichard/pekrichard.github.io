@@ -4,6 +4,16 @@ html, body {
     max-height: 100vh;
 }
 
-body {
-    
+a, a:hover, a:active,
+input, input:hover, input:active,
+button, button:hover, button:active {
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: black;
+}
+
+#buttons{
+    margin: 2%;
+    padding: 2%;
 }
