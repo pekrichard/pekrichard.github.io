@@ -3,8 +3,8 @@ html, body {
     height: 100vh;
     max-height: 100vh;
     position: relative !important;
-    width: 100vw i !important;
-    overflow: hidden auto i !important;
+    width: 100vw !important;
+    overflow: hidden auto !important;
 }
 
 body {
@@ -45,8 +45,8 @@ footer {
     color: aliceblue;
     box-shadow: 0 -5px 10px 3px black;
     position: absolute !important;
-    bottom: 0 i !important;
-    left: 0 im !important;
+    bottom: 0 !important;
+    left: 0 !important;
 }
 
 /* Egyéb */
