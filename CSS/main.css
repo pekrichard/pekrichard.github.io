@@ -41,6 +41,8 @@ footer {
     background-color: #212529;
     color: aliceblue;
     box-shadow: 0 -5px 10px 3px black;
+    position: absolute;
+    bottom: 0;
 }
 
 /* Egyéb */
