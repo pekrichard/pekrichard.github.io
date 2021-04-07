@@ -21,6 +21,7 @@ body {
     position: absolute;
     height: 100vh;
     margin: 2%;
+    padding: 2%;
 }
 #cards img {
     width: 100%;
@@ -37,4 +38,6 @@ a{
     -10px 0 10px 5px #00000080,
     0 10px 10px 5px #00000080,
     0 -10px 10px 5px #00000080;
+    margin-left: 3%;
+    margin-right: 3%;
 }
